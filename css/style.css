@@ -1,0 +1,310 @@
+
+/*
+Nav, button, Header
+font-family: 'Montserrat', sans-serif;
+font-family: 'Abril Fatface', cursive;
+*/
+
+
+body{
+    font-family: 'Roboto Slab', serif;
+    color: #777;
+}
+
+/*helpers*/
+
+
+#main-nav{
+    background-color: transparent;
+    transition: all 0.4s;
+    font-family: 'Abril Fatface', cursive;
+    font-size:50px;
+    color:black;
+    width:100%;
+    
+}
+
+#main-nav.scrolled{
+    background-color:white;
+}
+
+#main-nav a {
+    color:#8ca4d5;
+}
+
+#main-nav a:hover {
+    color:white;
+}
+
+#main-nav.scrolled a {
+    color:#8ca4d5;
+    
+}
+
+#main-nav.scrolled a:hover{
+    color:white;
+    
+}
+
+#main-nav img{
+    margin-bottom:-8px;
+    margin-left:400px;
+}
+
+
+#main-header{
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    font-weight:900;
+    
+}
+#main-header #header-inner{
+    background-image: url(../img/header/tloportfolio2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+#main-header #header-inner #header-mask{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0,0,0,0);
+    width:90%;
+    height:50%;
+}
+
+#main-header #header-inner #header-mask #header-contest #headertext{
+    width:40%;
+    float:right;
+    color:white;
+    font-size:4vw;
+    padding-top:300px;
+    text-align:right;
+    color:white;
+    line-height:100%;
+}
+
+/*/aboutme/*/
+
+section#aboutme {
+    margin-top:100px;
+    height:100%;
+    background-image: url(/img/background/tloaboutme.jpg)
+}
+
+#aboutme-photo{
+    width=100%;
+    height=90%;
+    
+}
+
+#aboutme-text{
+    width=100%;
+    background-color:white;
+    padding:50px;
+    padding-bottom:0px;
+}
+#aboutme-photo img {
+    margin-left:20px;
+}
+
+.aboutme-inner p{
+    font-family: 'Montserrat', sans-serif;
+    color:#8ca4d5;
+    text-align:left;
+    font-weight:500;
+}
+
+.aboutme-inner h1{
+    font-family: 'Abril Fatface', cursive;
+    text-shadow:5px 5px #8ca4d5;
+    color:black;
+    padding-bottom:20px;
+}
+
+
+/*portfolio*/
+
+#portfolio {
+    background-color: #F7F7F7;
+    padding-top:100px;
+}
+#portfolio header {
+    padding: 20px;
+}
+
+#portfolio header h2{
+    font-family: 'Abril Fatface', cursive;
+    text-shadow:5px 5px #8ca4d5;
+    color:black;
+}
+
+#portfolio header p{
+    font-family:'Montserrat', sans-serif;
+    color:#8ca4d5;
+}
+
+
+#portfolio .content {
+    background-color: white;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+#portfolio .content .overflow {
+    height: 300px;
+    overflow: hidden;
+}
+#portfolio .content .overflow .background {
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.4s;
+    
+    
+}
+#portfolio .content .overflow .background:hover {
+    transform: scale(1.5);
+}
+#portfolio .content .overflow .background:hover .mask{
+    opacity:1;
+    
+}
+#portfolio .content .overflow .background .mask{
+    background: rgba(140,164,213,0.7);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+    opacity:0;
+    transition: all 0.4s;
+}
+
+#portfolio-img0{
+    background-image: url(../img/portfolio/armand-khoury-4cBVro7SHLs-unsplash.jpg);
+}
+#portfolio-img1{
+    background-image: url(../img/portfolio/brad-huchteman-KxIayGr6mRU-unsplash.jpg);
+}
+#portfolio-img2{
+    background-image: url(../img/portfolio/robin-spielmann-5qokP1G303I-unsplash.jpg);
+}
+#portfolio-img3{
+    background-image: url(../img/portfolio/ricardo-gomez-angel-9AdeEdYB2yk-unsplash.jpg);
+}
+#portfolio-img4{
+    background-image: url(../img/portfolio/liane-tHHoR5oJyY4-unsplash.jpg);
+}
+#portfolio-img5{
+    background-image: url(../img/portfolio/dynamicwang-bLIkWFelVKM-unsplash.jpg);
+}
+
+#portfolio h3{
+    font-family:'Montserrat', sans-serif;
+    color:#8ca4d5;
+}
+
+/*media*/
+
+
+.media{
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.media .media-round {
+    border-radius: 50%;
+    background-color: black;
+    width:50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 5px;
+    transition: all 0.4s;
+    
+}
+.media .media-round:hover {
+    transform: rotate(360deg);
+    background-color: #8ca4d5;
+}
+.media .media-round a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+/*contact*/
+
+
+#contact {
+    background-color:#8ca4d5;
+    font-family: 'Abril Fatface', cursive;
+}
+
+#contact #formimage{
+    padding-top:50px;
+    margin-bottom:30px;
+    vertical-align:middle;
+}
+
+#contact header {
+    color:black;
+    padding-top:20px;
+
+}
+
+#contact h2{
+    font-size:50px;
+    background-color:white;
+    margin-left:20px;
+    margin-right:20px;
+}
+#contact .container-form {
+    padding: 30px 0;
+    border:none;
+    margin-top:100px;
+}
+
+#contact .container-form input.form-control::placeholder{
+    color:#8ca4d5;
+    font-weight: 900;
+}
+
+#contact .container-form textarea.form-control::placeholder{
+    color:#8ca4d5;
+    font-weight: 900;
+}
+
+#contact .container-form textarea{
+    height: 162px;
+    border:none;
+}
+#contact button {
+    margin-top: 10px;
+    background-color:white;
+    border:none;
+    color:black;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+form{
+   margin:20px;
+   font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    line-height: 8vw;
+}
+footer p {
+    font-family: 'Abril Fatface', cursive;
+    color:#05080e;
+}
+
+
