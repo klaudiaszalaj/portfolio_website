@@ -4,7 +4,7 @@ My first responsive portfolio project created while learing basics of HTML5, CSS
 See [DEMO.](https://klaudiaszalaj.github.io/portfolio_website/)
 <br>
 
-<a href="https://ibb.co/9v7Qrbz"><img src="https://i.ibb.co/th9VJqk/mockupromipng2.png" alt="mockupromipng2" border="0"></a>
+<a href="https://ibb.co/7k0XBtv"><img src="https://i.ibb.co/y4xXKF0/romi-design.png" alt="romi-design" border="0"></a>
 
 # Technologies
 Project is created with:
